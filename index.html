@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chakri Captures — Professional Photography, Videography & Editing Portfolio. Stories told in light and motion.">
+  <meta name="author" content="Chakri">
+  
+  <title>Chakri Captures | Photography, Videography & Editing Portfolio</title>
+
+  <!-- Google Fonts: Cormorant Garamond & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Sticky Top Navigation Bar
+       ========================================================================== -->
+  <header id="siteNav" class="site-nav">
+    <div class="container nav-inner">
+      <!-- Left: Logo -->
+      <a href="#home" class="nav-brand" aria-label="Chakri Captures Home">
+        CHAKRI <span>CAPTURES</span>
+      </a>
+
+      <!-- Center: Navigation links in exact specified order -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#work" class="nav-link">My Work</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right: Instagram Button & Mobile Hamburger -->
+      <div class="nav-actions">
+        <a href="https://www.instagram.com/chakri_captures_" target="_blank" rel="noopener noreferrer" class="nav-instagram-btn" aria-label="Visit Chakri Captures on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>Instagram</span>
+        </a>
+
+        <button id="hamburgerBtn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fullscreen Mobile Navigation Menu -->
+  <div id="mobileNavModal" class="mobile-nav-modal" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link">About</a></li>
+      <li class="mobile-nav-item"><a href="#services" class="mobile-nav-link">Services</a></li>
+      <li class="mobile-nav-item"><a href="#work" class="mobile-nav-link">My Work</a></li>
+      <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+
+    <a href="https://www.instagram.com/chakri_captures_" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.95rem;">
+      Follow on Instagram
+    </a>
+  </div>
+
+  <main id="main">
+    <!-- ==========================================================================
+         Home Section (Cinematic Hero)
+         ========================================================================== -->
+    <section id="home" class="hero-section">
+      <!-- Background Image (home-hero.jpg - not lazy loaded) -->
+      <div class="hero-bg-container">
+        <img src="assets/images/home-hero.jpg" alt="Chakri Captures hero photograph" class="hero-bg-image">
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="eyebrow hero-eyebrow">PHOTOGRAPHY · VIDEOGRAPHY · EDITING</div>
+          <h1 class="hero-headline">Stories told in light and motion.</h1>
+          <p class="hero-intro">
+            Chakri Captures is a photography and videography studio, capturing people, places and moments with a cinematic eye.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="btn btn-secondary">Let's Talk</a>
+          </div>
+
+          <a href="#about" class="hero-scroll-cue" aria-label="Scroll down to explore">
+            <span>Scroll to explore</span>
+            <svg class="scroll-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About Section
+         ========================================================================== -->
+    <section id="about" class="about-section">
+      <div class="container about-grid">
+        <!-- Photograph: about.jpg -->
+        <div class="about-visual">
+          <div class="about-img-box">
+            <img src="assets/images/about.jpg" alt="Chakri - Behind the lens" loading="lazy">
+            <div class="about-frame-accent"></div>
+          </div>
+        </div>
+
+        <!-- Copy -->
+        <div class="about-content">
+          <div class="eyebrow">ABOUT</div>
+          <h2 class="about-heading">Behind the lens</h2>
+          <p class="about-copy">
+            Chakri is a photographer and videographer from Vignan, Visakhapatnam. He works with a simple idea: every frame should carry a feeling. From festivals and go-kart races to quiet moments in nature, he tells each story with clean composition, rich colour and a cinematic finish.
+          </p>
+          <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="btn btn-primary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==========================================================================
+         Services Section
+         ========================================================================== -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">SERVICES</div>
+          <h2 class="section-title">What I create</h2>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Photography -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <img src="assets/images/people-01.jpg" alt="Photography services by Chakri Captures" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Photography</h3>
+              <p class="service-card-desc">Portraits, events, sports and everyday moments, captured with an eye for detail.</p>
+              <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="btn btn-secondary">Let's Work Together</a>
+            </div>
+          </article>
+
+          <!-- Service 2: Videography -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <img src="assets/images/kart-01.jpg" alt="Videography services by Chakri Captures" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Videography</h3>
+              <p class="service-card-desc">Cinematic films and short-form video that move, from event coverage to brand stories.</p>
+              <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="btn btn-secondary">Let's Work Together</a>
+            </div>
+          </article>
+
+          <!-- Service 3: Editing -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <img src="assets/images/animal-03.jpg" alt="Editing and colour grading by Chakri Captures" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Editing</h3>
+              <p class="service-card-desc">Colour grading, retouching and final cut editing that bring out the mood of every shot.</p>
+              <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="btn btn-secondary">Let's Work Together</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==========================================================================
+         My Work Section (Gallery)
+         ========================================================================== -->
+    <section id="work" class="work-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">MY WORK</div>
+          <h2 class="section-title">Selected frames</h2>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="gallery-filters" role="tablist" aria-label="Filter gallery by category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-filter="gokart" role="tab" aria-selected="false">Go-Kart</button>
+          <button class="filter-btn" data-filter="nature" role="tab" aria-selected="false">Nature & Sky</button>
+          <button class="filter-btn" data-filter="animals" role="tab" aria-selected="false">Animals</button>
+          <button class="filter-btn" data-filter="festivals" role="tab" aria-selected="false">Festivals</button>
+          <button class="filter-btn" data-filter="everyday" role="tab" aria-selected="false">Everyday & Still Life</button>
+        </div>
+
+        <!-- Masonry Grid with 15 required tiles -->
+        <div id="galleryGrid" class="gallery-grid">
+
+          <!-- GO-KART (3 items) -->
+          <!-- kart-01.jpg: Motion-blur go-kart photograph. Layout: Tall tile -->
+          <article class="gallery-tile tile-tall" data-category="gokart" tabindex="0" role="button" aria-label="View Motion-Blur Go-Kart">
+            <img src="assets/images/kart-01.jpg" alt="High-speed motion-blur go-kart racing around the curve" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Go-Kart</span>
+              <h3 class="gallery-tile-title">Motion-Blur Go-Kart</h3>
+            </div>
+          </article>
+
+          <!-- kart-02.jpg: Red Gulf go-kart -->
+          <article class="gallery-tile" data-category="gokart" tabindex="0" role="button" aria-label="View kart-02.jpg">
+            <img src="assets/images/kart-02.jpg" alt="Red Gulf go-kart on track" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Go-Kart</span>
+              <h3 class="gallery-tile-title">Red Gulf Go-Kart #6</h3>
+            </div>
+          </article>
+
+          <!-- kart-03.jpg: CAPTAIN helmet photograph. Layout: Wide feature tile -->
+          <article class="gallery-tile tile-wide" data-category="gokart" tabindex="0" role="button" aria-label="View kart-03.jpg">
+            <img src="assets/images/kart-03.jpg" alt="CAPTAIN helmet racing photograph" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Go-Kart</span>
+              <h3 class="gallery-tile-title">Captain Helmet Focus</h3>
+            </div>
+          </article>
+
+          <!-- NATURE & SKY (4 items) -->
+          <!-- nature-01.jpg: Beach sunset. Layout: Tall tile -->
+          <article class="gallery-tile tile-tall" data-category="nature" tabindex="0" role="button" aria-label="View nature-01.jpg">
+            <img src="assets/images/nature-01.jpg" alt="Golden beach sunset and breaking surf" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Nature & Sky</span>
+              <h3 class="gallery-tile-title">Beach Sunset</h3>
+            </div>
+          </article>
+
+          <!-- nature-02.jpg: Street lamp against the sky. Layout: Tall tile -->
+          <article class="gallery-tile tile-tall" data-category="nature" tabindex="0" role="button" aria-label="View nature-02.jpg">
+            <img src="assets/images/nature-02.jpg" alt="Street lamp silhouette against clouds and sky" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Nature & Sky</span>
+              <h3 class="gallery-tile-title">Street Lamp Against the Sky</h3>
+            </div>
+          </article>
+
+          <!-- nature-03.jpg: Sunset over hills. Layout: Wide tile -->
+          <article class="gallery-tile tile-wide" data-category="nature" tabindex="0" role="button" aria-label="View nature-03.jpg">
+            <img src="assets/images/nature-03.jpg" alt="Golden sun rays and sunset over hills and palms" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Nature & Sky</span>
+              <h3 class="gallery-tile-title">Sunset Over Hills</h3>
+            </div>
+          </article>
+
+          <!-- nature-04.jpg: Clouds with the sun -->
+          <article class="gallery-tile" data-category="nature" tabindex="0" role="button" aria-label="View nature-04.jpg">
+            <img src="assets/images/nature-04.jpg" alt="Dramatic sunburst radiating through clouds" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Nature & Sky</span>
+              <h3 class="gallery-tile-title">Clouds with the Sun</h3>
+            </div>
+          </article>
+
+          <!-- ANIMALS (3 items) -->
+          <!-- animal-01.jpg: Tabby cat -->
+          <article class="gallery-tile" data-category="animals" tabindex="0" role="button" aria-label="View animal-01.jpg">
+            <img src="assets/images/animal-01.jpg" alt="Domestic tabby cat with amber eyes" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Animals</span>
+              <h3 class="gallery-tile-title">Tabby Cat</h3>
+            </div>
+          </article>
+
+          <!-- animal-02.jpg: Dark cat with blue eyes. Layout: Tall tile -->
+          <article class="gallery-tile tile-tall" data-category="animals" tabindex="0" role="button" aria-label="View animal-02.jpg">
+            <img src="assets/images/animal-02.jpg" alt="Dark cat with alert eyes" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Animals</span>
+              <h3 class="gallery-tile-title">Dark Cat with Alert Eyes</h3>
+            </div>
+          </article>
+
+          <!-- animal-03.jpg: Horse on the beach, black and white -->
+          <article class="gallery-tile" data-category="animals" tabindex="0" role="button" aria-label="View animal-03.jpg">
+            <img src="assets/images/animal-03.jpg" alt="Horse on the beach in black and white" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Animals</span>
+              <h3 class="gallery-tile-title">Horse on the Beach</h3>
+            </div>
+          </article>
+
+          <!-- FESTIVALS (2 items) -->
+          <!-- festival-01.jpg: Folk dance performance. Layout: Tall tile -->
+          <article class="gallery-tile tile-tall" data-category="festivals" tabindex="0" role="button" aria-label="View festival-01.jpg">
+            <img src="assets/images/festival-01.jpg" alt="Folk dance performance depicting Krishna and Radha" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Festivals</span>
+              <h3 class="gallery-tile-title">Folk Dance Performance</h3>
+            </div>
+          </article>
+
+          <!-- festival-02.jpg: Kali idol with fire -->
+          <article class="gallery-tile" data-category="festivals" tabindex="0" role="button" aria-label="View festival-02.jpg">
+            <img src="assets/images/festival-02.jpg" alt="Kali ritual performance with blazing fire torches" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Festivals</span>
+              <h3 class="gallery-tile-title">Kali with Sacred Fire</h3>
+            </div>
+          </article>
+
+          <!-- EVERYDAY & STILL LIFE (3 items) -->
+          <!-- everyday-01.jpg: Coffee poster -->
+          <article class="gallery-tile" data-category="everyday" tabindex="0" role="button" aria-label="View everyday-01.jpg">
+            <img src="assets/images/everyday-01.jpg" alt="Steam rising in front of coffee poster in cafe" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Everyday & Still Life</span>
+              <h3 class="gallery-tile-title">Coffee Atmosphere</h3>
+            </div>
+          </article>
+
+          <!-- everyday-02.jpg: Roses and letter -->
+          <article class="gallery-tile" data-category="everyday" tabindex="0" role="button" aria-label="View everyday-02.jpg">
+            <img src="assets/images/everyday-02.jpg" alt="Red roses resting on handwritten letter" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Everyday & Still Life</span>
+              <h3 class="gallery-tile-title">Roses and Letter</h3>
+            </div>
+          </article>
+
+          <!-- everyday-03.jpg: Woman peeling, black and white. Layout: Tall tile -->
+          <article class="gallery-tile tile-tall" data-category="everyday" tabindex="0" role="button" aria-label="View everyday-03.jpg">
+            <img src="assets/images/everyday-03.jpg" alt="Elderly woman smiling joyfully, black and white street portrait by Chakri Captures" loading="lazy">
+            <div class="gallery-tile-caption">
+              <span class="gallery-tile-cat">Everyday & Still Life</span>
+              <h3 class="gallery-tile-title">Woman Smiling, Street Life</h3>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==========================================================================
+         Contact Section
+         ========================================================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-content">
+          <div class="eyebrow">CONTACT</div>
+          <h2 class="contact-heading">Let's create something together</h2>
+          <p class="contact-desc">
+            Available for photography, videography and editing projects. Email me or send a message on Instagram.
+          </p>
+
+          <div class="contact-links-grid">
+            <!-- Email -->
+            <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="contact-link-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>chakradharkondepudi@gmail.com</span>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/chakri_captures_" target="_blank" rel="noopener noreferrer" class="contact-link-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>@chakri_captures_</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/chakri-captures-0a11b2382/" target="_blank" rel="noopener noreferrer" class="contact-link-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Lightbox Modal
+       ========================================================================== -->
+  <div id="lightboxModal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Expanded Image View">
+    <div class="lightbox-dialog">
+      <button id="lightboxCloseBtn" class="lightbox-btn lightbox-close-btn" aria-label="Close lightbox">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <button id="lightboxPrevBtn" class="lightbox-btn lightbox-prev-btn" aria-label="Previous image">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <button id="lightboxNextBtn" class="lightbox-btn lightbox-next-btn" aria-label="Next image">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="lightbox-frame">
+        <img id="lightboxImg" src="" alt="Expanded photography preview">
+      </div>
+
+      <div class="lightbox-meta">
+        <div id="lightboxMetaCat" class="lightbox-meta-cat"></div>
+        <h3 id="lightboxMetaTitle" class="lightbox-meta-title"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <div class="footer-brand">CHAKRI <span>CAPTURES</span></div>
+          <div class="footer-role">Freelance Photographer · Videographer · Editor</div>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://www.instagram.com/chakri_captures_" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Chakri Captures Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/chakri-captures-0a11b2382/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Chakri Captures LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="mailto:chakradharkondepudi@gmail.com?subject=Photography%20and%20Videography%20Inquiry" class="footer-social-link" aria-label="Email Chakri Captures">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Chakri Captures. All rights reserved.</div>
+        <button id="backToTopBtn" class="back-to-top-btn" aria-label="Scroll back to top of page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
